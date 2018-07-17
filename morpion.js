@@ -13,9 +13,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[1].innerText == players[round].team &&
     pawns[2].innerText == players[round].team
   ) {
-    pawns[0].style.backgroundColor = "#ffee00";
-    pawns[1].style.backgroundColor = "#ffee00";
-    pawns[2].style.backgroundColor = "#ffee00";
+    pawns[0].style.backgroundColor = "#54e840";
+    pawns[1].style.backgroundColor = "#54e840";
+    pawns[2].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -24,9 +24,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[4].innerHTML == players[round].team &&
     pawns[5].innerHTML == players[round].team
   ) {
-    pawns[3].style.backgroundColor = "#ffee00";
-    pawns[4].style.backgroundColor = "#ffee00";
-    pawns[5].style.backgroundColor = "#ffee00";
+    pawns[3].style.backgroundColor = "#54e840";
+    pawns[4].style.backgroundColor = "#54e840";
+    pawns[5].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -35,9 +35,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[7].innerHTML == players[round].team &&
     pawns[8].innerHTML == players[round].team
   ) {
-    pawns[6].style.backgroundColor = "#ffee00";
-    pawns[7].style.backgroundColor = "#ffee00";
-    pawns[8].style.backgroundColor = "#ffee00";
+    pawns[6].style.backgroundColor = "#54e840";
+    pawns[7].style.backgroundColor = "#54e840";
+    pawns[8].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -46,9 +46,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[3].innerHTML == players[round].team &&
     pawns[6].innerHTML == players[round].team
   ) {
-    pawns[0].style.backgroundColor = "#ffee00";
-    pawns[3].style.backgroundColor = "#ffee00";
-    pawns[6].style.backgroundColor = "#ffee00";
+    pawns[0].style.backgroundColor = "#54e840";
+    pawns[3].style.backgroundColor = "#54e840";
+    pawns[6].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -57,9 +57,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[4].innerHTML == players[round].team &&
     pawns[7].innerHTML == players[round].team
   ) {
-    pawns[1].style.backgroundColor = "#ffee00";
-    pawns[4].style.backgroundColor = "#ffee00";
-    pawns[7].style.backgroundColor = "#ffee00";
+    pawns[1].style.backgroundColor = "#54e840";
+    pawns[4].style.backgroundColor = "#54e840";
+    pawns[7].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -68,9 +68,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[5].innerHTML == players[round].team &&
     pawns[8].innerHTML == players[round].team
   ) {
-    pawns[2].style.backgroundColor = "#ffee00";
-    pawns[5].style.backgroundColor = "#ffee00";
-    pawns[8].style.backgroundColor = "#ffee00";
+    pawns[2].style.backgroundColor = "#54e840";
+    pawns[5].style.backgroundColor = "#54e840";
+    pawns[8].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -79,9 +79,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[4].innerHTML == players[round].team &&
     pawns[8].innerHTML == players[round].team
   ) {
-    pawns[0].style.backgroundColor = "#ffee00";
-    pawns[4].style.backgroundColor = "#ffee00";
-    pawns[8].style.backgroundColor = "#ffee00";
+    pawns[0].style.backgroundColor = "#54e840";
+    pawns[4].style.backgroundColor = "#54e840";
+    pawns[8].style.backgroundColor = "#54e840";
     return true;
   }
 
@@ -90,9 +90,9 @@ const searchWinner = (pawns, players, round) => {
     pawns[4].innerHTML == players[round].team &&
     pawns[6].innerHTML == players[round].team
   ) {
-    pawns[2].style.backgroundColor = "#ffee00";
-    pawns[4].style.backgroundColor = "#ffee00";
-    pawns[6].style.backgroundColor = "#ffee00";
+    pawns[2].style.backgroundColor = "#54e840";
+    pawns[4].style.backgroundColor = "#54e840";
+    pawns[6].style.backgroundColor = "#54e840";
     return true;
   }
 };
